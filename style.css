@@ -1,0 +1,181 @@
+body{
+    background: #343F4F;
+    /* background-image: url(img/Easy-Code.png); */
+    background-repeat: no-repeat;
+    /* height: 100vh;
+    width: 100vw; */
+    background-size: cover;
+    /* background-size: 1400px 500px; */
+}
+#navbar{
+    float: right;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    /* background-color: rgb(38, 159, 220); */
+    background: transparent;
+    color: #edf2f6;
+}
+
+#logo{
+    height: 75px;
+    width: 500px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    /* color: rgb(98, 53, 8); */
+    text-decoration: solid;
+}
+#navbar ul li a{
+  color: #edf2f6;
+}
+
+#navbar ul li :hover{
+    color: rgb(26, 163, 217);
+}
+.head1{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 250px;
+    padding-left: 500px;
+    padding-bottom: 20px;
+    color: #5fa2e9;
+    font-size: 40px;
+    font-weight: 800;
+}
+.head2{
+    padding-left: 600px;
+    font-size: 40px;
+    color:#4d9aed ;
+    font-weight: 800;
+
+}
+.home-sci {
+    position: fixed;
+    padding-top: 200px;
+    
+}
+.home-sci a{
+    display: flex;
+    position: relative;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-bottom-width: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 16px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-bottom-width: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 16px;
+  }
+  .fa-instagram{
+    background: #f09433;
+    background: -moz-linear-gradient(45deg,#f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433',endColorstr='#bc1888' ,GradientType=1); */
+    width: 16px;
+  }
+  .para{
+    padding-left: 600px;
+    color:crimson;
+    font-size: 20px;
+    display: inline-block;
+  }
+  .para .dynamic-text{
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    /* background: red; */
+    overflow: hidden;
+  }
+  .dynamic-text li{
+    color: #FC6D6D;
+    list-style: none;
+    font-size: 65px;
+    font-weight: 600;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+  }
+  @keyframes slide{
+    100%{
+        top: -360px;
+    }
+  }
+  .dynamic-text li span{
+    position: relative;
+  }
+  .dynamic-text li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #343F4F;
+    border-left: 2px solid crimson;
+    animation: typing 1.5s steps(10) infinite;
+  }
+  @keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+  }
+  .about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .about h2{
+    padding-left: 700px;
+    font-size: 55px;
+    font-weight: 50px;
+    color: #0b128a;
+  }
+  .about p{
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 400px;
+    color: #dce623;
+    font-size: 20px;
+  }
+.problem{
+  
+}
